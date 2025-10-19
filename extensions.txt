@@ -1,0 +1,19 @@
+WSL: Ubuntu-22.04 konumuna yüklü uzantılar:
+dokca.42-ft-count-line
+github.copilot
+github.copilot-chat
+keyhr.42-c-format
+kube.42header
+mariusvanwijk-joppekoers.codam-norminette-3
+ms-ceintl.vscode-language-pack-tr
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-python.vscode-python-envs
+ms-vscode.cmake-tools
+ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
+ms-vscode.makefile-tools
+twxs.cmake
+wraith13.zoombar-vscode
