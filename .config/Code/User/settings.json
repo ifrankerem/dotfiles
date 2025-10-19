@@ -116,7 +116,7 @@
       },
       {
         "scope": ["keyword.operator", "punctuation.separator", "meta.preprocessor", "entity.name.function.preprocessor"],
-        "settings": { "foreground": "#F92672" }
+        "settings": { "foreground": "#ffffff" }
       },
       {
         "scope": ["support.type", "entity.name.type", "entity.name.namespace", "entity.name.scope-resolution"],
