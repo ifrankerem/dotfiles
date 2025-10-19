@@ -38,7 +38,7 @@ CODE_USER_DIR="$(detect_code_user_dir)"
 mkdir -p "$CODE_USER_DIR"
 
 # --- 2) settings.jsonc kopyala ve link oluştur ---
-SRC_SETTINGS="$SCRIPT_DIR/.config/Code/User/settings.jsonc"
+SRC_SETTINGS="$SCRIPT_DIR/.config/Code/User/settings.json"
 DST_JSONC="$CODE_USER_DIR/settings.jsonc"
 DST_JSON="$CODE_USER_DIR/settings.json"
 

@@ -1,5 +1,4 @@
 {
-  // --- Dosya eşleştirmeleri: std başlıklar ve bazı .h'leri C++ olarak aç ---
   "files.associations": {
     "array": "cpp",
     "atomic": "cpp",
@@ -48,41 +47,26 @@
     "stdexcept": "cpp",
     "streambuf": "cpp",
     "typeinfo": "cpp",
-    // sık kullanılan .h’ler
     "*.h": "cpp"
   },
-
-  // --- 42 başlık eklentisi ---
   "42header.username": "iarslan",
   "42header.email": "iarslan@student.42istanbul.com.tr",
-
-  // --- Explorer davranışı ---
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-
-  // --- Editör girinti ve formatlama (42 için sekme karakteri) ---
   "editor.insertSpaces": false,
   "editor.detectIndentation": false,
   "editor.defaultFormatter": "keyhr.42-c-format",
   "editor.formatOnSave": true,
-
-  // --- Kayıt & arayüz ---
   "files.autoSave": "afterDelay",
   "window.commandCenter": false,
   "window.zoomLevel": 0.52,
-
-  // --- Tema & simgeler ---
   "workbench.colorTheme": "Dark+ (default dark)",
   "workbench.iconTheme": "material-icon-theme",
-
-  // --- Yazı tipleri & rehberler ---
   "editor.fontFamily": "Fira Code, JetBrains Mono, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.semanticHighlighting.enabled": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
-
-  // --- Copilot (kapatık) ---
   "github.copilot.nextEditSuggestions.enabled": false,
   "github.copilot.enable": {
     "*": false,
@@ -91,8 +75,6 @@
     "scminput": false,
     "c": false
   },
-
-  // --- UI renkleri (Monokai esintisi) ---
   "workbench.colorCustomizations": {
     "editor.background": "#1F1F1F",
     "editor.foreground": "#F8F8F2",
@@ -114,24 +96,50 @@
     "tab.inactiveBackground": "#2A2A2A",
     "tab.activeBorderTop": "#FD971F"
   },
-
-  // --- TextMate kuralları ---
   "editor.tokenColorCustomizations": {
     "textMateRules": [
-      { "scope": ["comment", "punctuation.definition.comment"], "settings": { "foreground": "#75715E", "fontStyle": "italic" }},
-      { "scope": ["string", "constant.other.character", "punctuation.definition.string"], "settings": { "foreground": "#E6DB74" }},
-      { "scope": ["constant.numeric", "constant.language", "constant.character.escape"], "settings": { "foreground": "#AE81FF" }},
-      { "scope": ["keyword", "storage.type", "storage.modifier"], "settings": { "foreground": "#FD971F" }},
-      { "scope": ["keyword.operator", "punctuation.separator", "meta.preprocessor", "entity.name.function.preprocessor"], "settings": { "foreground": "#F92672" }},
-      { "scope": ["support.type", "entity.name.type", "entity.name.namespace", "entity.name.scope-resolution"], "settings": { "foreground": "#66D9EF" }},
-      { "scope": ["entity.name.function", "support.function"], "settings": { "foreground": "#A6E22E" }},
-      { "scope": ["variable", "meta.definition.variable"], "settings": { "foreground": "#F8F8F2" }},
-      { "scope": ["entity.name.type.class", "entity.name.type.struct", "entity.name.type.enum"], "settings": { "foreground": "#66D9EF", "fontStyle": "bold" }},
-      { "scope": ["string.quoted.double.include", "string.quoted.other.lt-gt.include"], "settings": { "foreground": "#E6DB74" }}
+      {
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": { "foreground": "#75715E", "fontStyle": "italic" }
+      },
+      {
+        "scope": ["string", "constant.other.character", "punctuation.definition.string"],
+        "settings": { "foreground": "#E6DB74" }
+      },
+      {
+        "scope": ["constant.numeric", "constant.language", "constant.character.escape"],
+        "settings": { "foreground": "#AE81FF" }
+      },
+      {
+        "scope": ["keyword", "storage.type", "storage.modifier"],
+        "settings": { "foreground": "#FD971F" }
+      },
+      {
+        "scope": ["keyword.operator", "punctuation.separator", "meta.preprocessor", "entity.name.function.preprocessor"],
+        "settings": { "foreground": "#F92672" }
+      },
+      {
+        "scope": ["support.type", "entity.name.type", "entity.name.namespace", "entity.name.scope-resolution"],
+        "settings": { "foreground": "#66D9EF" }
+      },
+      {
+        "scope": ["entity.name.function", "support.function"],
+        "settings": { "foreground": "#A6E22E" }
+      },
+      {
+        "scope": ["variable", "meta.definition.variable"],
+        "settings": { "foreground": "#F8F8F2" }
+      },
+      {
+        "scope": ["entity.name.type.class", "entity.name.type.struct", "entity.name.type.enum"],
+        "settings": { "foreground": "#66D9EF", "fontStyle": "bold" }
+      },
+      {
+        "scope": ["string.quoted.double.include", "string.quoted.other.lt-gt.include"],
+        "settings": { "foreground": "#E6DB74" }
+      }
     ]
   },
-
-  // --- Semantik token renkleri ---
   "editor.semanticTokenColorCustomizations": {
     "enabled": true,
     "rules": {
